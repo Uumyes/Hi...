@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+ body {
+   background-color: #1a1c22;
+      margin: 0;
+      padding: 0;
+ }
+ .parallelogram {
+   content: "";
+   position: absolute;
+   top: 1%;
+   right: 85%;
+   width: 12%;
+   height: 5%;
+   border-radius: 20%;
+   background-color: blue;
+   transform: skewX(20deg);
+   z-index: -1;
+ }
+ .irlogo {
+   
+   font-size: 230%;
+   font-weight: 780;
+   font-style: italic;
+   position: absolute;
+   right: 8%;
+ }
+ .search-bar {
+   position: absolute;
+   right: 20%;
+   top: 2%;
+}
+ .setting{
+   position: absolute;
+   right: 5%;
+   top: 2%;
+ }
+ p {
+   font-size: 18px;
+   color: #f7f7f7;
+   line-height: 1.2;
+   position: absolute;
+   top: 12%;
+ }
+ .TikTok {
+position: absolute;
+right: 85%;
+top: 95%;
+ }
+ .Instagram {
+   position: absolute;
+   right: 60%;
+   top: 95%;
+ }
+ .YouTube {
+   position: absolute;
+   right: 35%;
+   top: 95%;
+ }
+ .email_us {
+   position: absolute;
+   right: 10%;
+   top: 95%;
+ }
